@@ -1,0 +1,11 @@
+export { User } from './User.js';
+export { UserProfile } from './UserProfile.js';
+export { FitnessAssessment } from './FitnessAssessment.js';
+export { WorkoutPlan } from './WorkoutPlan.js';
+export { Workout } from './Workout.js';
+export { Exercise } from './Exercise.js';
+export { WorkoutSession } from './WorkoutSession.js';
+export { ExercisePerformance } from './ExercisePerformance.js';
+export { ProgressMeasurement } from './ProgressMeasurement.js';
+export { Goal } from './Goal.js';
+export { Recommendation } from './Recommendation.js';

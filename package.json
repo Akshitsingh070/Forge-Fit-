@@ -1,0 +1,12 @@
+{
+  "name": "forgefit-ai",
+  "version": "1.0.0",
+  "description": "ForgeFit AI - Production Autonomous Gym Training & Adaptive Performance Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  }
+}
