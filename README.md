@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ForgeFit AI — Autonomous Gym Training & Adaptive Performance Platform
 
 A modern, production-ready, AI-powered gym training web application engineered for lifters, athletes, and fitness enthusiasts.
@@ -112,3 +113,6 @@ forgefit-ai/
 - Stateless token verification with `jsonwebtoken`.
 - Zero client-side API secrets.
 - Mobile-first responsive layouts with bottom navigation and touch-friendly controls.
+=======
+# Forge-Fit-
+>>>>>>> 23687ee67477f99da271a63a91b6f03be10dad51
