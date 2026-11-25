@@ -155,7 +155,7 @@ export const SettingsPage = ({ onOpenOnboarding }) => {
             AI Workout Engine Configuration
           </h3>
           <p className="text-xs text-slate-400">
-            ForgeFit uses a built-in neural biomechanical engine. You can optionally connect a custom Google Gemini API key below.
+            SETORYN uses a built-in neural biomechanical engine. You can optionally connect a custom Google Gemini API key below.
           </p>
 
           <div className="relative">

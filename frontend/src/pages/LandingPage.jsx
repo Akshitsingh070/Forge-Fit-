@@ -44,10 +44,10 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
   };
 
   return (
-    <div className="relative overflow-hidden bg-[#080B11] text-slate-100 selection:bg-brand-500 selection:text-black">
+    <div className="relative overflow-hidden bg-transparent text-slate-100 selection:bg-brand-500 selection:text-white">
       {/* Background glow orbs */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand-500/10 blur-[130px] rounded-full pointer-events-none -z-10" />
-      <div className="absolute top-[800px] right-0 w-[500px] h-[500px] bg-accent-electric/10 blur-[140px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-brand-500/15 blur-[130px] rounded-full pointer-events-none -z-10" />
+      <div className="absolute top-[800px] right-0 w-[500px] h-[500px] bg-accent-magenta/15 blur-[140px] rounded-full pointer-events-none -z-10" />
 
       {/* HERO SECTION */}
       <section className="relative pt-12 pb-20 md:pt-20 md:pb-32 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -61,7 +61,7 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
           {/* Headline */}
           <h1 className="font-display font-black text-4xl sm:text-6xl lg:text-7xl tracking-tight text-white leading-[1.08]">
             Your Workout. <br className="hidden sm:inline" />
-            <span className="bg-gradient-to-r from-brand-400 via-emerald-300 to-accent-electric bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-brand-400 via-purple-300 to-fuchsia-400 bg-clip-text text-transparent">
               Your Goal. Your Plan.
             </span>
           </h1>
@@ -75,7 +75,7 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3.5">
             <button
               onClick={handlePrimaryCTA}
-              className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-brand-500 hover:bg-brand-400 text-black font-extrabold text-base shadow-glow-lg transition-all hover:scale-105 flex items-center justify-center gap-2.5"
+              className="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-500 hover:bg-brand-400 text-white font-extrabold text-base shadow-glow-lg transition-all hover:scale-105 flex items-center justify-center gap-2.5"
             >
               <span>Build My Workout Plan</span>
               <ArrowRight className="w-5 h-5 font-bold" />
@@ -128,7 +128,7 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
                 <div className="w-3 h-3 rounded-full bg-rose-500/80" />
                 <div className="w-3 h-3 rounded-full bg-amber-500/80" />
                 <div className="w-3 h-3 rounded-full bg-emerald-500/80" />
-                <span className="text-xs font-mono text-slate-400 ml-2">forgefit-engine.v2.4 // active-session</span>
+                <span className="text-xs font-mono text-slate-400 ml-2">setoryn-engine.v2.4 // active-session</span>
               </div>
               <span className="text-[11px] font-bold text-brand-400 bg-brand-500/10 px-2 py-0.5 rounded-full border border-brand-500/20">
                 LIVE GYM HUD
@@ -229,7 +229,7 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
               From Assessment to Peak Performance
             </h2>
             <p className="text-sm text-slate-400">
-              No generic cookie-cutter spreadsheets. ForgeFit AI analyzes your biomechanics and adapts every week.
+              No generic cookie-cutter spreadsheets. SETORYN AI analyzes your biomechanics and adapts every week.
             </p>
           </div>
 
@@ -386,24 +386,24 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
         <div className="space-y-3">
           {[
             {
-              q: 'How does ForgeFit AI generate my workout plan?',
+              q: 'How does SETORYN AI generate my workout plan?',
               a: 'Our engine ingests your age, biological metrics, primary goal (Hypertrophy, Strength, Fat Loss), training frequency, session duration, and equipment. It synthesizes a periodized 8-week cycle with optimal weekly set volume per muscle group.',
             },
             {
               q: 'What happens if I miss a workout?',
-              a: 'ForgeFit’s adaptive logic automatically rotates your upcoming days forward without cramming double sessions into one day, preventing overtraining and keeping your progression curve intact.',
+              a: 'SETORYN’s adaptive logic automatically rotates your upcoming days forward without cramming double sessions into one day, preventing overtraining and keeping your progression curve intact.',
             },
             {
-              q: 'Can I use ForgeFit if I only have dumbbells or bodyweight at home?',
+              q: 'Can I use SETORYN if I only have dumbbells or bodyweight at home?',
               a: 'Yes. In the equipment selector, choose "Dumbbells" or "Bodyweight Only". Every prescribed exercise and substitution will match your available equipment.',
             },
             {
               q: 'How does the rest timer and sound cues work in the gym?',
-              a: 'When you check off a set during a workout, ForgeFit immediately launches a floating rest countdown with an audible Web Audio chime when your rest interval completes, so you do not need to look at your phone constantly.',
+              a: 'When you check off a set during a workout, SETORYN immediately launches a floating rest countdown with an audible Web Audio chime when your rest interval completes, so you do not need to look at your phone constantly.',
             },
             {
               q: 'Is this medical or rehabilitation advice?',
-              a: 'No. ForgeFit AI is for general fitness conditioning. Users with injuries or medical restrictions should consult a licensed physical therapist or physician before beginning any training regimen.',
+              a: 'No. SETORYN AI is for general fitness conditioning. Users with injuries or medical restrictions should consult a licensed physical therapist or physician before beginning any training regimen.',
             },
           ].map((faq, i) => (
             <div
@@ -438,19 +438,19 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
             Ready to Take the Guesswork Out of Training?
           </h2>
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto leading-relaxed">
-            Answer a few quick questions about your body, goals, and equipment. ForgeFit AI generates your custom 8-week program in seconds.
+            Answer a few quick questions about your body, goals, and equipment. SETORYN AI generates your custom 8-week program in seconds.
           </p>
           <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
               onClick={handlePrimaryCTA}
-              className="w-full sm:w-auto px-8 py-4 rounded-2xl bg-brand-500 hover:bg-brand-400 text-black font-extrabold text-sm shadow-glow transition-all hover:scale-105 flex items-center justify-center gap-2"
+              className="w-full sm:w-auto px-8 py-4 rounded-full bg-brand-500 hover:bg-brand-400 text-white font-extrabold text-sm shadow-glow transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <span>Build My Workout Plan</span>
               <ArrowRight className="w-4 h-4" />
             </button>
             <button
               onClick={handleDemoLaunch}
-              className="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs transition-colors"
+              className="w-full sm:w-auto px-6 py-4 rounded-full bg-white/10 hover:bg-white/15 text-white font-semibold text-xs transition-colors"
             >
               Explore With Demo Account
             </button>
@@ -459,14 +459,14 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
       </section>
 
       {/* FOOTER */}
-      <footer className="border-t border-white/[0.08] bg-[#06080D] py-12 px-4 sm:px-6 lg:px-8 text-xs text-slate-400">
+      <footer className="border-t border-white/[0.08] bg-[#120B1C] py-12 px-4 sm:px-6 lg:px-8 text-xs text-slate-400">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded-xl bg-brand-500 flex items-center justify-center text-black font-black">
-              <Dumbbell className="w-4 h-4" />
-            </div>
-            <span className="font-display font-extrabold text-lg text-white">
-              FORGE<span className="text-brand-400">FIT</span> AI
+            <span className="font-sans font-black text-xl tracking-wider text-white uppercase">
+              SETORYN
+            </span>
+            <span className="text-[10px] font-black uppercase tracking-widest px-1.5 py-0.5 rounded-full bg-brand-500/20 text-brand-400 border border-brand-500/30">
+              AI
             </span>
           </div>
 
@@ -483,7 +483,7 @@ export const LandingPage = ({ onOpenOnboarding, onOpenAuth }) => {
           </div>
 
           <p className="text-[11px] text-slate-400">
-            © {new Date().getFullYear()} ForgeFit AI. Engineered for athletic longevity & progressive overload.
+            © {new Date().getFullYear()} SETORYN AI. Engineered for athletic longevity & progressive overload.
           </p>
         </div>
       </footer>

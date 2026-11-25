@@ -9,25 +9,43 @@ export default {
     extend: {
       colors: {
         dark: {
-          950: '#07090E',
-          900: '#0C1017',
-          850: '#111722',
-          800: '#161F2E',
-          700: '#1F2B3E',
-          600: '#2A3A54',
+          950: '#0F0918',
+          900: '#170E24',
+          850: '#1F1430',
+          800: '#281A3C',
+          700: '#34234C',
+          600: '#463264',
+        },
+        plum: {
+          950: '#100A19',
+          900: '#191024',
+          850: '#20152F',
+          800: '#291C3B',
+          700: '#35254A',
+          card: '#131118',
+          cardHover: '#181520',
+          pill: '#241832',
         },
         brand: {
-          50: '#ECFDF5',
-          100: '#D1FAE5',
-          400: '#34D399',
-          500: '#10B981', // vibrant emerald/neon green fitness accent
-          600: '#059669',
+          50: '#FAF5FF',
+          100: '#F3E8FF',
+          200: '#E9D5FF',
+          300: '#D8B4FE',
+          400: '#C084FC',
+          500: '#9D26F2', // Signature vibrant violet/purple from reference image
+          600: '#8419D4',
+          700: '#6B12AE',
+          800: '#541088',
+          900: '#400D66',
         },
         accent: {
-          neon: '#00F59B',
-          electric: '#06B6D4',
+          neon: '#9D26F2',
+          electric: '#A825FF',
+          magenta: '#D946EF',
+          cyan: '#06B6D4',
           orange: '#FF5722',
-          purple: '#8B5CF6'
+          flame: '#F97316',
+          teal: '#14B8A6'
         }
       },
       fontFamily: {
@@ -35,8 +53,15 @@ export default {
         display: ['Plus Jakarta Sans', 'Inter', 'sans-serif']
       },
       boxShadow: {
-        'glow': '0 0 25px -5px rgba(0, 245, 155, 0.25)',
-        'glow-lg': '0 0 50px -10px rgba(0, 245, 155, 0.35)',
+        'glow': '0 0 25px -4px rgba(157, 38, 242, 0.45)',
+        'glow-lg': '0 0 50px -8px rgba(157, 38, 242, 0.55)',
+        'glow-purple': '0 10px 25px -5px rgba(157, 38, 242, 0.4)',
+        'glow-white': '0 0 20px -2px rgba(255, 255, 255, 0.25)',
+      },
+      borderRadius: {
+        '3xl': '24px',
+        '4xl': '28px',
+        '5xl': '34px',
       }
     },
   },

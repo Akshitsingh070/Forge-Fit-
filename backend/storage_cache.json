@@ -1802,7 +1802,500 @@
       ]
     }
   ],
-  "workoutSessions": [],
+  "workoutSessions": [
+    {
+      "userId": "user_demo_101",
+      "workoutTitle": "Leg Day — Quad & Glute Hypertrophy",
+      "dayName": "Thursday",
+      "focus": "Knee extension, hinge loading & posterior chain",
+      "startedAt": "2026-11-25T21:20:45.578Z",
+      "status": "in_progress",
+      "exercises": [
+        {
+          "exerciseId": "ex-barbell-squat",
+          "name": "Barbell Back Squat",
+          "primaryMuscle": "Quadriceps Femoris",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-romanian-deadlift",
+          "name": "Barbell Romanian Deadlift (RDL)",
+          "primaryMuscle": "Hamstrings & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "primaryMuscle": "Quadriceps & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-standing-calf-raise",
+          "name": "Standing Calf Raise",
+          "primaryMuscle": "Gastrocnemius",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            }
+          ]
+        }
+      ],
+      "totalSetsCompleted": 0,
+      "totalVolumeKg": 0,
+      "_id": "item_1795641645578_8wbh06",
+      "id": "item_1795641645578_8wbh06",
+      "createdAt": "2026-11-25T21:20:45.578Z",
+      "updatedAt": "2026-11-25T21:20:45.578Z"
+    },
+    {
+      "userId": "user_demo_101",
+      "workoutTitle": "Leg Day — Quad & Glute Hypertrophy",
+      "dayName": "Thursday",
+      "focus": "Knee extension, hinge loading & posterior chain",
+      "startedAt": "2026-11-25T21:28:29.261Z",
+      "status": "in_progress",
+      "exercises": [
+        {
+          "exerciseId": "ex-barbell-squat",
+          "name": "Barbell Back Squat",
+          "primaryMuscle": "Quadriceps Femoris",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-romanian-deadlift",
+          "name": "Barbell Romanian Deadlift (RDL)",
+          "primaryMuscle": "Hamstrings & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "primaryMuscle": "Quadriceps & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-standing-calf-raise",
+          "name": "Standing Calf Raise",
+          "primaryMuscle": "Gastrocnemius",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            }
+          ]
+        }
+      ],
+      "totalSetsCompleted": 0,
+      "totalVolumeKg": 0,
+      "_id": "item_1795642109261_irgi9s",
+      "id": "item_1795642109261_irgi9s",
+      "createdAt": "2026-11-25T21:28:29.261Z",
+      "updatedAt": "2026-11-25T21:28:29.261Z"
+    },
+    {
+      "userId": "user_demo_101",
+      "workoutTitle": "Leg Day — Quad & Glute Hypertrophy",
+      "dayName": "Thursday",
+      "focus": "Knee extension, hinge loading & posterior chain",
+      "startedAt": "2026-11-25T21:29:30.061Z",
+      "status": "in_progress",
+      "exercises": [
+        {
+          "exerciseId": "ex-barbell-squat",
+          "name": "Barbell Back Squat",
+          "primaryMuscle": "Quadriceps Femoris",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "6-8",
+              "weightKg": 95,
+              "repsCompleted": 6,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-romanian-deadlift",
+          "name": "Barbell Romanian Deadlift (RDL)",
+          "primaryMuscle": "Hamstrings & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "8-10",
+              "weightKg": 80,
+              "repsCompleted": 8,
+              "rpe": 8,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-walking-lunges",
+          "name": "Dumbbell Walking Lunges",
+          "primaryMuscle": "Quadriceps & Gluteus Maximus",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "10-12 per leg",
+              "weightKg": 18,
+              "repsCompleted": 10,
+              "rpe": 8.5,
+              "isCompleted": false
+            }
+          ]
+        },
+        {
+          "exerciseId": "ex-standing-calf-raise",
+          "name": "Standing Calf Raise",
+          "primaryMuscle": "Gastrocnemius",
+          "isCompleted": false,
+          "notes": "",
+          "sets": [
+            {
+              "setNumber": 1,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 2,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 3,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            },
+            {
+              "setNumber": 4,
+              "targetReps": "12-15",
+              "weightKg": 60,
+              "repsCompleted": 12,
+              "rpe": 9,
+              "isCompleted": false
+            }
+          ]
+        }
+      ],
+      "totalSetsCompleted": 0,
+      "totalVolumeKg": 0,
+      "_id": "item_1795642170061_yb68jm",
+      "id": "item_1795642170061_yb68jm",
+      "createdAt": "2026-11-25T21:29:30.061Z",
+      "updatedAt": "2026-11-25T21:29:30.061Z"
+    }
+  ],
   "exercisePerformances": [
     {
       "id": "ep-1",

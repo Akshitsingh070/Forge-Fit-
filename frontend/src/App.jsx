@@ -27,8 +27,8 @@ const ProtectedRoute = ({ children, onOpenAuth }) => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-[#080B11] flex items-center justify-center">
-        <div className="w-8 h-8 rounded-full border-2 border-brand-400 border-t-transparent animate-spin" />
+      <div className="min-h-screen bg-plum-900 flex items-center justify-center">
+        <div className="w-8 h-8 rounded-full border-2 border-brand-500 border-t-transparent animate-spin" />
       </div>
     );
   }
@@ -42,12 +42,15 @@ const ProtectedRoute = ({ children, onOpenAuth }) => {
 
 // Dashboard Layout Shell
 const DashboardLayout = ({ children, onOpenAuth, onOpenOnboarding }) => {
+  const location = useLocation();
+  const isDashboardHome = location.pathname === '/dashboard';
+
   return (
-    <div className="min-h-screen bg-[#080B11] flex flex-col">
+    <div className="min-h-screen bg-transparent flex flex-col">
       <Navbar onOpenAuth={onOpenAuth} onOpenOnboarding={onOpenOnboarding} />
-      <div className="flex-1 flex max-w-7xl w-full mx-auto">
-        <Sidebar />
-        <main className="flex-1 p-4 sm:p-6 lg:p-8 overflow-y-auto">
+      <div className={`flex-1 flex w-full mx-auto ${isDashboardHome ? 'max-w-[1400px]' : 'max-w-7xl'}`}>
+        {!isDashboardHome && <Sidebar />}
+        <main className={`flex-1 p-2 sm:p-4 lg:p-6 overflow-y-auto ${isDashboardHome ? 'w-full' : ''}`}>
           {children}
         </main>
       </div>
@@ -71,7 +74,7 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#080B11] text-slate-100 font-sans selection:bg-brand-500 selection:text-black">
+    <div className="min-h-screen text-slate-100 font-sans selection:bg-brand-500 selection:text-white">
       <Routes>
         {/* Public Landing Page */}
         <Route
