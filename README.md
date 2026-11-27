@@ -1,6 +1,6 @@
 # SETORYN – Fitness & Progress Tracking
 
-**Train Smarter. Track Every Rep. Transform Yourself.**
+**Train Smarter. Track Every Rep. Transform Yourself.** (hosting this soon open to suggestions and contributions)
 
 SETORYN is a modern fitness platform designed to help individuals take control of their fitness journey. 
 It aims to combine workout tracking, personalized training plans, body progress monitoring, and AI-powered fitness recommendations into one platform.
